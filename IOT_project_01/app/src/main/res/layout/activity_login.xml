@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/sdlogo02"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="110dp">
+
+    </ImageView>
+
+
+    <Button
+        android:layout_width="297dp"
+        android:layout_height="52dp"
+        app:backgroundTint="@color/white"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/input"
+        android:hint="Sign Up For Free"
+        android:padding="07dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints">
+
+    </Button>
+
+    <Button
+        android:layout_width="297dp"
+        android:layout_height="52dp"
+        app:backgroundTint="@color/white"
+        android:background="@drawable/input"
+        android:hint="Continue With Facebook"
+        android:padding="07dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="50dp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="430dp" >
+
+    </Button>
+    <Button
+        android:layout_width="297dp"
+        android:layout_height="52dp"
+        android:background="@drawable/input"
+        android:hint="Continue With Google"
+        android:padding="07dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="450dp"
+        app:backgroundTint="@color/white"
+        android:layout_marginLeft="50dp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="490dp" >
+
+    </Button>
+
+    <Button
+        android:layout_width="297dp"
+        android:layout_height="52dp"
+        android:background="@drawable/input"
+        android:hint="Continue With Email"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="50dp"
+        app:backgroundTint="@color/white"
+        android:padding="07dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textColorHint="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="560dp" >
+
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="620dp"
+        android:text="Already Have A Account? Log In"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_marginTop="600dp"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+
+</RelativeLayout>
